@@ -42,6 +42,6 @@
         document.body.appendChild(container);
     };
 
-    // WebSocket'leri sarmalayın
+    // WebSocketleri sarmalayın
     wrapWebSocket();
 })();

@@ -1,4 +1,4 @@
-  The multi-purpose monitoring and pentesting tool for Territorial.io;
+  The BigEYE is multi-purpose monitoring and pentesting tool for Territorial.io;
 
 
 WebSocket Traffic Logging and Manipulation:

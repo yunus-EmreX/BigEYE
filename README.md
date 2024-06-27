@@ -8,7 +8,7 @@ Logging and Manipulation of Game Functions:
 The application can monitor game functions on Territorial.io and manipulate the data to understand how these functions operate. This feature is useful for gaining insights into the inner workings of the game and for development purposes.
 
 Logging 1v1 Account Information and ELO:
-BigEye securely logs player account information and ELO (bO.Bd) data to platforms like Discord. This feature is crucial for tracking player performance and game statistics.
+BigEye securely logs player account information and ELO (bD.Do) data to platforms like Discord. This feature is crucial for tracking player performance and game statistics.
 
 Decoding WSS Secure Data:
 The application can decode encrypted data transmitted over WebSocket Secure (wss). This feature allows understanding of communication data even when security measures are in place.

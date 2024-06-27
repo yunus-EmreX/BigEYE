@@ -1,4 +1,5 @@
-  #What is BigEYE?
+  The multi-purpose monitoring and pentesting tool for Territorial.io;
+
 
 WebSocket Traffic Logging and Manipulation:
 BigEye can monitor WebSocket traffic on Territorial.io in real-time and record this traffic in detail. This feature is used to verify the accuracy of data transmission and for debugging purposes.

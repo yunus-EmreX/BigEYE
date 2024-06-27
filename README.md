@@ -15,3 +15,10 @@ The application can decode encrypted data transmitted over WebSocket Secure (wss
 
 UTF-8 Data Transformation:
 BigEye can transform communication data into UTF-8 format, ensuring compatibility when exchanging data across different languages and character encodings.
+
+The New Update:
+BigEye Announces New Feature: WebSocket Data Integration with JavaScript Functions
+
+We are thrilled to introduce a powerful new capability in BigEye: the seamless integration of WebSocket data with JavaScript functions. This update allows developers to establish meaningful communication channels between JavaScript code and WebSocket transmissions. By correlating data sent to WebSocket during JavaScript function calls, developers gain deep insights into the intricate workings of server-client interactions within game architectures.
+
+This enhancement marks a significant step forward in empowering developers to better understand and optimize their game development processes. 

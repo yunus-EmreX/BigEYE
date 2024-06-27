@@ -1,33 +1,16 @@
-Setup and User Guide
+  #What is BigEYE?
 
-Hello! Below, I will explain how to set up and use a system that tracks and logs game functions, optimizes performance, and sends the data live to your Node.js server. Additionally, I will show you how to combine this system with your WebSocket logger code to receive all the necessary game data live.
-Step 1: Setting Up the Node.js Server
+WebSocket Traffic Logging and Manipulation:
+BigEye can monitor WebSocket traffic on Territorial.io in real-time and record this traffic in detail. This feature is used to verify the accuracy of data transmission and for debugging purposes.
 
-First, we need to set up a simple Node.js server to receive the logs. This server will collect the logs of game functions and display them in your terminal.
+Logging and Manipulation of Game Functions:
+The application can monitor game functions on Territorial.io and manipulate the data to understand how these functions operate. This feature is useful for gaining insights into the inner workings of the game and for development purposes.
 
-1.1. Writing the Server Code (server.js)
+Logging 1v1 Account Information and ELO:
+BigEye securely logs player account information and ELO (bO.Bd) data to platforms like Discord. This feature is crucial for tracking player performance and game statistics.
 
-Paste the following code into a file named server.js
+Decoding WSS Secure Data:
+The application can decode encrypted data transmitted over WebSocket Secure (wss). This feature allows understanding of communication data even when security measures are in place.
 
-1.2. Running the Server
-
-Start the server by running the following command in your terminal:
-
-    node server.js
-
-Step 2: Installing the Tampermonkey Script
-
-Create a Tampermonkey script that will send logs to your local server and minimize performance drops.
-
-#Why Use This Script?
-
-This script allows you to log every function in your game in real-time and optimize performance. Combined with a Node.js server, you can obtain detailed and live data about your game. Here are some amazing features of this script:
-
-    Real-Time Function Logging: Monitor all game functions in real-time. See when each function is called, with which arguments, and what it returns.
-    Performance Optimization: Accelerate functions by 10x to enhance game performance and provide a smoother gaming experience.
-    Easy Setup: Quick and easy setup with Node.js server and Tampermonkey script. Just follow the steps above to start using these powerful tools.
-    Detailed Data Analysis: When combined with the my previously published WebSocket logger code, you can receive and analyze all detailed game data live. This makes it extremely easy to write game codes and understand the game's functioning.
-
-This system is an indispensable tool for game developers and analysts. It provides all the information you need while writing and optimizing game codes, saving you time and effort.
-
-With this script and Node.js server, analyzing and optimizing your game codes has never been easier.
+UTF-8 Data Transformation:
+BigEye can transform communication data into UTF-8 format, ensuring compatibility when exchanging data across different languages and character encodings.

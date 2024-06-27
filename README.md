@@ -4,6 +4,7 @@ Hello! Below, I will explain how to set up and use a system that tracks and logs
 Step 1: Setting Up the Node.js Server
 
 First, we need to set up a simple Node.js server to receive the logs. This server will collect the logs of game functions and display them in your terminal.
+
 1.1. Writing the Server Code (server.js)
 
 Paste the following code into a file named server.js

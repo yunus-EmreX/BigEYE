@@ -25,3 +25,5 @@ This enhancement marks a significant step forward in empowering developers to be
 
 V0.22: 
 It can successfully read arraybuffer strings in the range of 8, 12, and 32 bytes
+V0.23:
+BigEYE data has reached the ability to manipulate json, blob, UTF-8 text, raw raw, and hexedeceminal data at even the most complex level of encrypted data
